@@ -8,6 +8,7 @@ function App() {
       <Student name="Brandon" age={27} isStudent={true}/>
       <Student name="Jayden" age={43} isStudent={false}/>
       <Student name="Aatman" age={12} isStudent={false}/>
+      <Student name="Aatman" age={12} isStudent={false}/>
     </>
   );
 }
