@@ -1,10 +1,13 @@
-.student {
-    font-family: Arial, sans-serif;
-    font-size: 2em;
+.welcomeMsg {
+    font-size: 20px;
+    background-color: rgb(27, 78, 141);
     padding: 10px;
-    border: 1px solid hsla(0, 0%, 50%, 0.8)
+    border-radius: 10px;
 }
 
-.student p {
-    margin: 1;
-}
+.loginPrompt {
+    font-size: 20px;
+    background-color: rgb(168, 98, 36);
+    padding: 10px;
+    border-radius: 10px;
+}       
