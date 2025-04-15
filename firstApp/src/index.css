@@ -1,13 +1,24 @@
-.welcomeMsg {
-    font-size: 20px;
-    background-color: rgb(27, 78, 141);
-    padding: 10px;
-    border-radius: 10px;
+.listCategory {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(68, 67, 67);
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: rgb(59, 92, 148);
 }
 
-.loginPrompt {
-    font-size: 20px;
-    background-color: rgb(168, 98, 36);
-    padding: 10px;
-    border-radius: 10px;
-}       
+.listItems {
+    font-size: 25px;
+    list-style: none;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    margin: 0;
+}
+
+.listItems li:hover{
+    color: gray;
+    cursor: pointer;
+    
+}
