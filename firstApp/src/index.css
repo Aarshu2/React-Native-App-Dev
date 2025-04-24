@@ -1,85 +1,26 @@
 body {
-    background-color: rgb(20, 21, 21);
-}
+    background-image: url(assets/Space.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
 
-.toDoList {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 100px;
-
-}
-
-h1 {
-    font-size: 40px;
-    color: white;
-}
-
-button{
-    font-size: 17px;
-    font-weight: bold;
-    padding: 10px 20px;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-
-.addButton {
-    background-color: rgb(25, 207, 8);
-}
-
-.addButton:hover {
-    background-color: rgb(13, 127, 5);
-}
-
-.deleteButton {
-    background-color: rgb(226, 5, 5);
-}
-
-.deleteButton:hover {
-    background-color: rgb(128, 7, 3);
-}
-
-.moveButton {
-    background-color: rgb(5, 196, 226);
-}
-
-.moveButton:hover {
-    background-color: rgb(7, 133, 150);
-}
-
-input[type="text"] {
-    font-size: 16px;
-    padding: 10px;
-    border: 2px solid hsla(0, 0%, 80%, 0.5);
-    border-radius: 5px;
-    color: rgb(128, 128, 128);
-}
-
-ol {
-    padding: 0;
-
-}
-
-li {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 15px;
-    background-color: hsl(0, 0%, 96%);
-    margin-bottom: 10px;
-    border: 3px solid hsl(0, 0%, 85%, 0.75);
-    border-radius: 5px;
     display: flex;
+    justify-content: center;
+    min-height: 100vh;
     align-items: center;
 }
 
-.text {
-    flex: 1;
+.clockContainer {
+    backdrop-filter: blur(3px);
 }
 
-.deleteButton, .moveButton {
-    padding: 8px 12px;
-    font-size: 14px;
-    margin-left: 10px;
+.clock {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 0%, 0.75);
+    text-align: center;
 }
